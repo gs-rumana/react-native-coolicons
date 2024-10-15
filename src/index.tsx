@@ -25,7 +25,7 @@ const CoolIcon: React.FC<CoolIconProps> = ({ name, color, size = 24 }) => {
     return null;
   }
 
-  return <Component width={size} height={size} fill={color} />;
+  return <Component width={size} height={size} fill={color} color={color} />;
 };
 
 export default CoolIcon;
