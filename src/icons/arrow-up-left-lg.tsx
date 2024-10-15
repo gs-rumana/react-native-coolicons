@@ -6,7 +6,7 @@ const SvgArrowUpLeftLg = (props: SvgProps) => (
     xmlns="http://www.w3.org/2000/svg"
     width={24}
     height={24}
-    fill={props.color}
+    fill={props.fill}
     {...props}
   >
     <Path

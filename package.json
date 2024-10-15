@@ -7,7 +7,7 @@
   "source": "src/index",
   "scripts": {
     "build": "npm run compile && tsc",
-    "compile": "npx @svgr/cli --index-template ./index-temp.js --replace-attr-values='none={props.color}' --out-dir src/icons --filename-case kebab --native --typescript -- src/svg"
+    "compile": "npx @svgr/cli --index-template ./index-temp.js --replace-attr-values='none={props.fill}' --out-dir src/icons --filename-case kebab --native --typescript -- src/svg"
   },
   "repository": {
     "type": "git",
