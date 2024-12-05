@@ -4,8 +4,8 @@ import type { SvgProps } from "react-native-svg";
 const SvgHouseRemove = (props: SvgProps) => (
   <Svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
+    width={props.width}
+    height={props.height}
     fill={props.fill}
     {...props}
   >

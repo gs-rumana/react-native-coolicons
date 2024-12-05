@@ -1,13 +1,13 @@
 {
   "name": "react-native-coolicons",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Coolicons for React Native",
   "main": "src/index.tsx",
   "react-native": "src/index",
   "source": "src/index",
   "scripts": {
     "build": "npm run compile && tsc",
-    "compile": "npx @svgr/cli --index-template ./index-temp.js --replace-attr-values='none={props.fill}' --out-dir src/icons --filename-case kebab --native --typescript -- src/svg"
+    "compile": "npx @svgr/cli --index-template ./index-temp.js --template icon-temp.js --out-dir src/icons --filename-case kebab --native --typescript -- src/svg"
   },
   "repository": {
     "type": "git",
